@@ -1,0 +1,37 @@
+.result-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-container .getTextButton{
+  height: 6vh;
+  width: 250px;
+  border: 2px solid rgb(175, 145, 236);
+  border-radius: 30px;
+  background-image: linear-gradient(90deg,#59b9e5,#f053c9);
+  font-size: 20px;
+  font-weight: 700;
+  color: #242424;
+}
+
+.result-container .outputText{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  color: #ffff;
+  padding: 20px 20px;
+  font-size: 18px;
+  line-height: 1.4;
+  background-color: #302f2fa9;
+  width: 96vw;
+  border: 1px solid rgb(175, 145, 236);
+  border-radius: 20px;
+  margin: 20px 20px;
+  text-align: left;
+  white-space: pre-wrap;  /* Preserve line breaks and spaces */
+  font-family: 'Courier New', monospace; /* Monospace font for better alignment */
+
+}
